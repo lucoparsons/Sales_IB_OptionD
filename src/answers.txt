@@ -1,0 +1,38 @@
+1. A class lays out the structure and format of the object it is used to create, whereas an instance of a class is an
+actual object created using this structure, with specific values initiated when the instance was created from the class.
+There can be many instances of a single class, with different (or the same) values for instance variables, but the same
+operations and methods. For example, there could be an OfficeStaff class laying out the properties of a member of the
+office staff, and each instance of that class would specify the individual values of these properties for each person
+in the office staff.
+
+2. Inheritance could be useful in making OfficeStaff and SalesPerson classes. These are different types of employees,
+so they might inherit from an Employee superclass that contains basic information for all employees, and each subclass
+would contain information and methods specific to that type of employee. Another way inheritance could be used is in
+building the GUI classes, because there could be a different GUI subclass for each product the company manages, which
+would all inherit from a superclass containing elements common to all GUIs.
+
+3. The use of libraries can help in the development of programs like this in that they can provide shortcuts and easier
+ways of implementing code elements. Libraries could also unify or standardize the code, making it easier to code in a
+team.
+
+6. Accessor methods are necessary for the SalesPerson class due to the encapsulation utilized in the class. The instance
+variables in SalesPerson are private, and therefore in order to access them from outside of the class, accessor methods
+must be used.
+
+7. (see attached)
+
+8. A future change to the design of the Sales object that makes the instance variables public could have the negative
+effect of hurting the encapsulation of the suite of programs, making programming in a team more difficult.
+
+9. The output would read:
+102
+2
+2550.40
+5000.00
+
+13. In order for a payroll class to be implemented, the SalesPerson class will need to have a method that calculates
+how much of each sale goes to the salesperson who sold it. The SalesPerson class might also track experience of the
+salesperson to make sure these people have a greater salary.
+
+14. Polymorphism is not present in this suite of programs, as there is no inheritance, and therefore no place where
+a subclass of a parent class exhibits unique features as well as the functionality of the parent class.
